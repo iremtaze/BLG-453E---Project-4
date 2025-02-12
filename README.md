@@ -1,29 +1,16 @@
-# BLG-453E COMPUTER VISION Project
+# BLG-453E - Project 4
 
-Overview
-This repository contains the work for Project 4 of the BLG-453E (Computer Vision) course at Istanbul Technical University. The project focuses on implementing and analyzing various computer vision techniques, including optical flow analysis and transfer learning.
+![Project Logo](Lion.jpg)
 
-Table of Contents
-Project Description
-Repository Structure
-Installation
-Usage
-Results
-Contributing
-License
-Acknowledgments
-Project Description
-The objectives of this project are:
+## 📌 Introduction
 
-Optical Flow Analysis: Implementing methods to analyze motion in videos.
-Transfer Learning: Adapting pre-trained models for specific tasks.
-Data Analysis: Conducting comprehensive analyses on provided datasets.
-Repository Structure
+This repository contains the coursework for **Project 4** in the **BLG-453E (Computer Vision)** course at **Istanbul Technical University**. The project focuses on implementing and analyzing key computer vision techniques, including **optical flow analysis** and **transfer learning**.
+
+## 📂 Repository Structure
+
 The repository is organized as follows:
 
-plaintext
-Copy
-Edit
+```
 BLG-453E---Project-4/
 ├── frames/                 # Extracted frames from videos
 ├── test/                   # Test dataset
@@ -31,76 +18,91 @@ BLG-453E---Project-4/
 ├── val/                    # Validation dataset
 ├── BLG_453E_Fall2425_HW4.pdf  # Project description document
 ├── Lion.jpg                # Project logo
-├── README.md               # Project README file
-├── best_model.pth          # Best model weights
-├── irem.ipynb              # Jupyter Notebook for the project
-├── opticalflow.py          # Script for optical flow analysis
-├── opticalflow_video.mp4   # Video demonstrating optical flow results
-├── output_video.mp4        # Output video of the project
-├── q1.py                   # Script for question 1
-├── q3.py                   # Script for question 3
-├── q4.py                   # Script for question 4
-├── q4_analysis.py          # Analysis script for question 4
+├── README.md               # Project documentation
+├── best_model.pth          # Trained model weights
+├── irem.ipynb              # Jupyter Notebook for experiments
+├── opticalflow.py          # Optical flow analysis script
+├── opticalflow_video.mp4   # Optical flow results video
+├── output_video.mp4        # Processed output video
+├── q1.py                   # Solution for Question 1
+├── q3.py                   # Solution for Question 3
+├── q4.py                   # Solution for Question 4
+├── q4_analysis.py          # Data analysis script for Question 4
 ├── roboteatingkebab.png    # Sample image
-└── transferlearning.py     # Script for transfer learning
-Installation
-To set up the project locally:
+└── transferlearning.py     # Transfer learning script
+```
 
-Clone the repository:
+## 🛠️ Installation
 
-bash
-Copy
-Edit
-git clone https://github.com/iremtaze/BLG-453E---Project-4.git
-cd BLG-453E---Project-4
-Install the required packages:
+To set up and run the project locally, follow these steps:
 
-Ensure you have Python 3.x installed. Then, install the necessary packages:
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/iremtaze/BLG-453E---Project-4.git
+   cd BLG-453E---Project-4
+   ```
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Note: If requirements.txt is not available, manually install the required packages as specified in the scripts.
+2. **Install Dependencies:**
+   Ensure you have **Python 3.x** installed, then install the required packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
+   *If `requirements.txt` is missing, install dependencies manually as specified in the scripts.*
 
-Usage
-To run the various components of the project:
+## 🚀 Usage
 
-Optical Flow Analysis:
+Run the following scripts for different functionalities:
 
-Execute the opticalflow.py script to perform optical flow analysis:
-
-bash
-Copy
-Edit
+### 🔹 Optical Flow Analysis
+```bash
 python opticalflow.py
-Transfer Learning:
+```
+This script extracts motion information from videos using optical flow techniques.
 
-Run the transferlearning.py script to perform transfer learning tasks:
-
-bash
-Copy
-Edit
+### 🔹 Transfer Learning
+```bash
 python transferlearning.py
-Other Scripts:
+```
+Runs a pre-trained model adapted to a specific task using transfer learning.
 
-For other functionalities, execute the respective scripts:
-
-bash
-Copy
-Edit
+### 🔹 Additional Scripts
+To execute any other script:
+```bash
 python script_name.py
-Replace script_name.py with the desired script's filename.
+```
+Replace `script_name.py` with the appropriate filename.
 
-Results
-The project outputs include:
+## 📊 Results & Outputs
 
-Optical Flow Result Video: opticalflow_video.mp4
-Model Output Video: output_video.mp4
-Trained Model Weights: best_model.pth
-Contributing
-Contributions are welcome. If you have suggestions or improvements, please fork the repository and submit a pull request. For major changes, open an issue to discuss the proposed modifications.
+The project produces the following results:
 
-License
-This project is licensed under the MIT License.
+- **🎥 Optical Flow Analysis Video:** [`opticalflow_video.mp4`](opticalflow_video.mp4)
+- **🎥 Model Output Video:** [`output_video.mp4`](output_video.mp4)
+- **🔧 Trained Model Weights:** [`best_model.pth`](best_model.pth)
+
+## 📚 Project Description
+
+The objectives of this project are:
+
+- **Optical Flow Analysis:** Implementing methods to analyze motion in videos.
+- **Transfer Learning:** Adapting pre-trained models for specific tasks.
+- **Data Analysis:** Conducting comprehensive analyses on provided datasets.
+
+## 👨‍💼 Contributing
+
+Contributions are welcome! If you have suggestions or improvements, please fork the repository and submit a pull request. For major changes, open an issue to discuss the proposed modifications.
+
+## 💍 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## 🌟 Acknowledgments
+
+- **Instructor:** [Instructor's Name]
+- **Course:** BLG-453E - Computer Vision, Istanbul Technical University
+- **Contributors:** [List of contributors]
+
+---
+
+*Note: Replace placeholders like `[Instructor's Name]` and `[List of contributors]` with actual information as applicable.*
 
