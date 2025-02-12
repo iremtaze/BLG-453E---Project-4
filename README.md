@@ -1,4 +1,4 @@
-# BLG-453E - Project 4
+# BLG-453E - Project 
 
 ![Project Logo](Lion.jpg)
 
@@ -96,13 +96,5 @@ Contributions are welcome! If you have suggestions or improvements, please fork 
 
 This project is licensed under the [MIT License](LICENSE).
 
-## 🌟 Acknowledgments
 
-- **Instructor:** [Instructor's Name]
-- **Course:** BLG-453E - Computer Vision, Istanbul Technical University
-- **Contributors:** [List of contributors]
-
----
-
-*Note: Replace placeholders like `[Instructor's Name]` and `[List of contributors]` with actual information as applicable.*
 
